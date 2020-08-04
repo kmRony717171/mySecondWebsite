@@ -1,11 +1,19 @@
 body{
     margin: 0;
+    padding: 0;
     font-family: 'Recursive', sans-serif;
 }
 .header-area{
-    height: 500px;
+   
+    height: 100vh;
     background-image: url(images/header-bg.png);
-    margin-bottom: 100px;
+    background-size: cover;
+}
+.header-area .half-width h2{
+    margin-top: 20vh;
+}
+.header-area .half-width p{
+    margin-bottom: 40px;
 }
 .half-width{
     width: 40%;
@@ -15,7 +23,8 @@ body{
     text-align: center;
 }
 .half-width img{
-    width: 100%;
+    margin-top: 5vh;
+    width: 90%;
 }
 .orange{
     color: rgb(226, 9, 143);
@@ -34,12 +43,59 @@ p{
 .btn{
     text-decoration: none;
     background-image: linear-gradient(45deg,fuchsia,rgb(100, 1, 62));
+    margin-top: 40px;
     padding: 10px 20px;
     color: white;
     border-radius: 8px;
 }
+.btn:hover{
+    background-image: linear-gradient(45deg,rgba(255, 0, 255, 0.658),rgba(100, 1, 62, 0.726));
+}
 .biography-area{
-    height: 500px;
+    height: 110vh;
     background-image: url(images/biography-bg.png);
+    background-size: cover;
     margin-bottom: 100px;
+}
+.biography-area .half-width h1{
+    margin-top: 30vh;
+}
+.biography-area .half-width p{
+    margin-bottom: 40px;
+}
+/* work-area */
+.latest-work{
+    background-image: url(images/latest-work-bg.png);
+    height: 90vh;
+    margin-bottom: 10vh;
+}
+.latest-work h1{
+    text-align: center;
+}
+.latest-work .work-dashbord{
+    margin: auto;
+}
+.latest-work .work-dashbord .margin-left{
+    margin-left: 12%;
+}
+.latest-work .work-dashbord .work-img{
+    width: 25%;
+}
+.testmonial{
+    height: 900px;
+    text-align: center;
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.testmonial .pink{
+    background-color: hotpink;
+    width: 50vw;
+    padding: 30px 60px;
+    border-radius: 10px;
+    margin-left: 20vw;
+}
+.footer{
+    padding: 40px;
+    text-align: center;
 }
