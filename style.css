@@ -3,9 +3,10 @@ body{
     padding: 0;
     font-family: 'Recursive', sans-serif;
 }
+section{
+    height: 700px;
+}
 .header-area{
-   
-    height: 100vh;
     background-image: url(images/header-bg.png);
     background-size: cover;
 }
@@ -24,7 +25,7 @@ body{
 }
 .half-width img{
     margin-top: 5vh;
-    width: 90%;
+    width: 80%;
 }
 .orange{
     color: rgb(226, 9, 143);
@@ -52,10 +53,8 @@ p{
     background-image: linear-gradient(45deg,rgba(255, 0, 255, 0.658),rgba(100, 1, 62, 0.726));
 }
 .biography-area{
-    height: 110vh;
     background-image: url(images/biography-bg.png);
     background-size: cover;
-    margin-bottom: 100px;
 }
 .biography-area .half-width h1{
     margin-top: 30vh;
@@ -66,11 +65,11 @@ p{
 /* work-area */
 .latest-work{
     background-image: url(images/latest-work-bg.png);
-    height: 90vh;
-    margin-bottom: 10vh;
+    background-size: cover;
 }
 .latest-work h1{
     text-align: center;
+    padding-top: 20vh;
 }
 .latest-work .work-dashbord{
     margin: auto;
@@ -82,11 +81,13 @@ p{
     width: 25%;
 }
 .testmonial{
-    height: 900px;
+    display: inline-block;
+    background-image: url(images/footer-bg.png);
+    background-size: cover;
+    height: 600px;
     text-align: center;
-    background-image: url(images/biography-bg.png);
-    background-repeat: no-repeat;
-    overflow: hidden;
+    width: 100%;
+    padding-top: 10%;
 }
 .testmonial .pink{
     background-color: hotpink;
@@ -94,8 +95,10 @@ p{
     padding: 30px 60px;
     border-radius: 10px;
     margin-left: 20vw;
+    margin-top: 10vh;
 }
 .footer{
-    padding: 40px;
+    height: 5vh;
+    padding-top: 40px;
     text-align: center;
 }
